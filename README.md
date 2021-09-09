@@ -1,3 +1,2 @@
 docker build -t flask-app .
-heroku login
-heroku container:login
+docker run flask-app
